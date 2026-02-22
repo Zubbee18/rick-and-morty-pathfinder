@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="config.js"></script>
+    <script src="async_request.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="hero">
+        <h1>Rick and Morty Characters</h1>
+        <h2>Click the button to generate random character information</h2>
+        <button id="generate" onclick="displayRickAndMortyCharacters()">Generate</button>
+    </section>
+    <h3>What do you think the weather's like in their last known location? Click on character cards to get weather information ;)</h3>
+    <section class="cards">
+        <!-- <h3>Episodes</h3> -->
+        <!-- <h4>General information</h4> -->
+        <!-- <div class="card-grid-container"> -->
+            <p id="loading" >loading...</p>
+            <div class="card-grid">
+            </div>  
+        <!-- </div> -->
+    </section>
+
+    
+</body>
+</html>
